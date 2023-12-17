@@ -16,3 +16,11 @@ export const nome = (req: Request, res: Response) => {
   nome = nome.charAt(0).toUpperCase() + nome.slice(1);
   res.json({ message: `Olá, ${nome}` });
 };
+
+export const createFrase = async (req: Request, res: Response) => {
+    let { author, txt } = req.body;
+
+   let newPhrase = await Phrase.create({ author, txt });
+
+   res.json({id: newPhrase.id, author, txt});
+}

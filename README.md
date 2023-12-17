@@ -40,6 +40,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar
 
 ### Redes Sociais
 
-- [LinkedIn](www.linkedin.com/in/tavilo-breno-barbosa-pessoa-b11238a2) 💼
+- [LinkedIn](https://www.linkedin.com/in/tavilo-breno-barbosa-pessoa-b11238a2) 💼
 - [Instagram](link-do-perfil-instagram) 📸
 - [Facebook](link-do-perfil-facebook) 📘

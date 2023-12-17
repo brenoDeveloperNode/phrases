@@ -54,3 +54,23 @@ export const updatePhrase = async (req: Request, res: Response) => {
       .json({ error: "Erro ao atualizar a frase", details: error.message });
   }
 };
+
+export const deletePhrase = async (req: Request, res: Response) => {
+  const { id } = req.params; // Obtém o ID da frase a ser deletada do parâmetro da URL
+
+  try {
+    const phraseToDelete = await Phrase.findByPk(id);
+
+    if (!phraseToDelete) {
+      return res.status(404).json({ error: "Frase não encontrada" });
+    }
+
+    await phraseToDelete.destroy();
+
+    return res.json({ message: "Frase deletada com sucesso" });
+  } catch (error: any) {
+    return res
+      .status(500)
+      .json({ error: "Erro ao deletar a frase", details: error.message });
+  }
+};

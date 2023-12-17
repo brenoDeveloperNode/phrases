@@ -9,8 +9,9 @@ router.get('/random', ApiController.random);
 
 router.get('/nome/:nome', ApiController.nome);
 
-router.post('/frases', ApiController.createFrase);
 router.get('/frases', ApiController.listPhrases);
+router.get("/frases/:id", ApiController.getPhraseById);
+router.post('/frases', ApiController.createFrase);
 router.put("/frases/:id", ApiController.updatePhrase);
 router.delete("/frases/:id", ApiController.deletePhrase);
 

@@ -12,10 +12,10 @@ Uma API simples para gerenciar frases com autores, construída com TypeScript e 
 
 ## Configuração do Banco de dados 🗃️
 
-DB_HOST=seu_host
-DB_USER=seu_usuario
-DB_PASSWORD=sua_senha
-DB_NAME=nome_do_banco_de_dados
+- DB_HOST=seu_host
+- DB_USER=seu_usuario
+- DB_PASSWORD=sua_senha
+- DB_NAME=nome_do_banco_de_dados
 
 ## Tecnologias Utilizadas 🛠️
 
@@ -33,3 +33,13 @@ DB_NAME=nome_do_banco_de_dados
 
 ## Contribuição 🤝
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## Autor📝
+
+👤 [Tavilo Breno](https://github.com/brenoDeveloperNode)
+
+### Redes Sociais
+
+- [LinkedIn](www.linkedin.com/in/tavilo-breno-barbosa-pessoa-b11238a2) 💼
+- [Instagram](link-do-perfil-instagram) 📸
+- [Facebook](link-do-perfil-facebook) 📘
